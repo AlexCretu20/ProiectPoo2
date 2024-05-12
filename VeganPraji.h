@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <vector>
-#include "cmake-build-debug/PrajiAbstracta.h"
+#include "PrajiAbstracta.h"
 #include "Prajitura.h"
 #include "Fruct.h"
 #include "FructePraji.h"

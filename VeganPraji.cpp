@@ -47,7 +47,7 @@ void  VeganPraji::Pregatire(const std::vector<std::string>ingrediente_in_stoc, c
 
 void VeganPraji::Afisare(std::ostream &os, const PrajiAbsracta &Praji) const
 {
-    std::cout<<"Afisam detaliile despre prajitura vegana cu codul de bare"<<CodBare<<"\n";
+    std::cout<<"Afisam detaliile despre prajitura vegana cu codul de bare "<<CodBare<<"\n";
 }
 
 VeganPraji::~VeganPraji()

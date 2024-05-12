@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <vector>
-#include "cmake-build-debug/PrajiAbstracta.h"
-
+#include "PrajiAbstracta.h"
+#include <algorithm>
 
 class Prajitura: public PrajiAbsracta{
 private:
@@ -25,16 +25,7 @@ public:
     void Afisare( std::ostream &os, const PrajiAbsracta &Praji) const override;
     ~Prajitura() override;
 private:
-    static bool compLung(const std::string &a, const std:: string &b)
-    {
-        return(a.size()<b.size());
-    }
-
-
+    static bool compLung(const std::string &a, const std:: string &b);
 };
-
-
-
-
 
 #endif //UNTITLED9_PRAJITURA_H

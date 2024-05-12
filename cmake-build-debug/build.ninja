@@ -55,7 +55,7 @@ build CMakeFiles/untitled9.dir/main.cpp.obj: CXX_COMPILER__untitled9_unscanned_D
   OBJECT_DIR = CMakeFiles\untitled9.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled9.dir
 
-build CMakeFiles/untitled9.dir/PrajiAbstracta.cpp.obj: CXX_COMPILER__untitled9_unscanned_Debug C$:/Users/Alexandra/CLionProjects/untitled9/cmake-build-debug/PrajiAbstracta.cpp || cmake_object_order_depends_target_untitled9
+build CMakeFiles/untitled9.dir/PrajiAbstracta.cpp.obj: CXX_COMPILER__untitled9_unscanned_Debug C$:/Users/Alexandra/CLionProjects/untitled9/PrajiAbstracta.cpp || cmake_object_order_depends_target_untitled9
   DEP_FILE = CMakeFiles\untitled9.dir\PrajiAbstracta.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled9.dir

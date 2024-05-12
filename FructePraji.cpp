@@ -7,10 +7,17 @@ int FructePraji::GetNrFructe()
 }
 
 FructePraji::FructePraji(const std::string &denumire_, int pret_, int nringrediente_, const std::vector<std::string> &ingrediente_, int valabilitate_, const std::string &dataProductie_, int nrFructe_,Fruct *fructe_)
-        : Prajitura(denumire_,pret_,nringrediente_,ingrediente_,valabilitate_,dataProductie_), nrFructe{nrFructe_}, fructe{fructe_}
+        : Prajitura(denumire_,pret_,nringrediente_,ingrediente_,valabilitate_,dataProductie_), nrFructe{nrFructe_}
 {
     if(nrFructe==0) fructe= nullptr;
-    else fructe=new Fruct[nrFructe];
+    else{
+        fructe=new Fruct[nrFructe];
+        for (int i=0; i<nrFructe; i++)
+            {
+                fructe[i]=fructe_[i];
+            }
+    }
+
 }
 //modificam functia adaugand 5 minute in plus pt fiecare fruct
 int FructePraji::TimpPregatire(const std::vector<int> ingredient_timp) const
@@ -46,11 +53,19 @@ void FructePraji::Pregatire(const std::vector<std::string>ingrediente_in_stoc, c
         if(nrFructe!=0)
         {
             std::cout<<"Acum adaugam fructele ";
+
+//            for (int i=0; i<nrFructe; i++)
+//            {
+//                Fruct* f=&fructe[i];
+//                std::cout<<*f;
+//            }
             for(int i=0; i<nrFructe;i++)
             {
-                Fruct& f=fructe[i];
-                std::cout<<f<<",";
+                //Fruct& f=fructe[i];
+                std::cout<<fructe[i];
             }
+
+
         }
         std::cout<<"\nPrajitura va fi gata in "<<TimpPregatire(ingredient_timp)<<" minute\n";
     }

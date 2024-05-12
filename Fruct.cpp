@@ -7,14 +7,15 @@ Fruct::Fruct(std::string nume_, std::string culoare_):nume{nume_},culoare{culoar
 {
     std::cout<<"Am adaugat fructele in prajitura\n";
 }
-std::ostream &operator<<(std::ostream &os, const Fruct &f)
+std::ostream &operator<<(std::ostream &oss, const Fruct &f)
 {
-    os<<"Nume "<<f.nume<<",";
-    f.AfisareNume(os);
-    return os;
+    oss<<f.nume<<",";
+    return oss;
 }
 
-void Fruct::AfisareNume(std::ostream &os) const
+void Fruct::AfisareNume(std::ostream &oss) const
 {
-    os<<nume<<",";
+    oss<<nume<<",";
 }
+
+Fruct::~Fruct()=default;

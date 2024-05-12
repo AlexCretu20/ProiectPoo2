@@ -1,13 +1,12 @@
 # ninja log v5
-4	1474	7370644328780340	CMakeFiles/untitled9.dir/main.cpp.obj	21b06147f6dcfbed
-1474	1726	7370644331097018	untitled9.exe	28413209b3c9434c
-12	1835	7370719369970308	CMakeFiles/untitled9.dir/PrajiAbstracta.cpp.obj	784a9cb8c82e454e
-50	3337	7370727488916500	CMakeFiles/untitled9.dir/Fruct.cpp.obj	a4abe211130c2b3b
-39	3511	7370727490769618	CMakeFiles/untitled9.dir/PrajiAbstracta.cpp.obj	784a9cb8c82e454e
-3343	3781	7370727493615108	CMakeFiles/untitled9.dir/exceptie1.cpp.obj	a705c3e50eadd88f
-63	3875	7370727494355672	CMakeFiles/untitled9.dir/FructePraji.cpp.obj	3449733bcda01034
-76	4010	7370727495963946	CMakeFiles/untitled9.dir/VeganPraji.cpp.obj	eabaa78c25d1ed46
-27	4047	7370727496369452	CMakeFiles/untitled9.dir/Prajitura.cpp.obj	cc08e5057d827d88
-13	4340	7370727499390428	CMakeFiles/untitled9.dir/main.cpp.obj	21b06147f6dcfbed
-3513	5477	7370727510781308	CMakeFiles/untitled9.dir/exceptie2.cpp.obj	59b3b1b9680cfd35
-5478	5994	7370727515713946	untitled9.exe	f65041d1251acf86
+31	1368	7372190221558695	CMakeFiles/untitled9.dir/FructePraji.cpp.obj	3449733bcda01034
+4	591	7372185511077808	CMakeFiles/untitled9.dir/Fruct.cpp.obj	a4abe211130c2b3b
+5	1516	7372190223037419	CMakeFiles/untitled9.dir/main.cpp.obj	21b06147f6dcfbed
+7	1005	7372195964128129	CMakeFiles/untitled9.dir/Prajitura.cpp.obj	cc08e5057d827d88
+1005	1298	7372195966864106	untitled9.exe	f65041d1251acf86
+19	1362	7372190221498695	CMakeFiles/untitled9.dir/VeganPraji.cpp.obj	eabaa78c25d1ed46
+11	1501	7372167959924410	CMakeFiles/untitled9.dir/PrajiAbstracta.cpp.obj	b8364d3386afea82
+25	1234	7372190220208706	CMakeFiles/untitled9.dir/exceptie1.cpp.obj	a705c3e50eadd88f
+38	1224	7372190220088724	CMakeFiles/untitled9.dir/exceptie2.cpp.obj	59b3b1b9680cfd35
+2	369	7372201335892949	build.ninja	fbaa973997c5571f
+35	997	7371502765883098	CMakeFiles/untitled9.dir/Abstracta.cpp.obj	514f1f59e95e89f

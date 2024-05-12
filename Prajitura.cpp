@@ -1,7 +1,15 @@
+#include "PrajiAbstracta.h"
 #include "Prajitura.h"
+#include <algorithm>
+#include <string>
 
+bool compLung(std::string &a, std::string &b)
+{
+    return(a.size()<b.size());
+}
 Prajitura::Prajitura(const std::string &denumire_, int pret_, int nringrediente_, const std::vector<std::string> &ingrediente_, int valabilitate_, const std::string &dataProductie_)
-        :PrajiAbsracta(denumire_, pret_, nringrediente_,ingrediente_), valabilitate{valabilitate_}, dataProductie{dataProductie_}
+: PrajiAbsracta(denumire_, pret_, nringrediente_,ingrediente_), valabilitate{valabilitate_},dataProductie{dataProductie_}
+
 {
     std::cout<<"Am creat o prajitura\n";
 
@@ -70,8 +78,10 @@ void Prajitura::Pregatire(const std::vector<std::string>ingrediente_in_stoc, con
     else
     {
         //adaugam ingredientele in ordinea crescatoare a numarului de litere
+        for (auto i:ingrediente)
+            std::cout<<i<<",";
         std::cout<<"Acum adaungam ingredientele intr-un castron mare:";
-        //std::sort(ingrediente.begin(),ingrediente.end(), compLung);
+        std::sort(ingrediente.begin(),ingrediente.end());
         for (auto i:ingrediente)
             std::cout<<i<<",";
         // adaugam si rezultatul de TimpPregatire
@@ -95,10 +105,18 @@ int Prajitura:: GetProfit(const std::vector<int> ingredient_pret, PrajiAbsracta 
 
 void Prajitura:: Afisare( std::ostream &os, const PrajiAbsracta &Praji) const
 {
-    os<<"\nAcestea sunt informatiile despre prajitura cu codul de bare"<<CodBare<<std::endl;
+    os<<"\nAcestea sunt informatiile despre prajitura cu codul de bare "<<CodBare<<std::endl;
 }
+
+//bool Prajitura::compLung(const std::string &a, const std::string &b) {
+//    return a.size()<b.size();
+//}
+
+
+
 
 Prajitura:: ~Prajitura()
 {
     std::cout<<"S-a distrus prajitura\n";
 }
+
