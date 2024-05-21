@@ -1,4 +1,5 @@
-##Cerinte proiect:
+##Cerinte proiect:##
+
 O interfață care definește funcțiile virtuale pure 
 • O clasa abstractă (care implementeaza anumite metode ale interfeței, dar nu 
 pe toate) 
@@ -24,7 +25,12 @@ niciuna din derivate
 pe parcursul programului.
 
 Descrierea proiectului:
-Am creat o clasa  numita Prajitura care este baza pt clasele FructePraji si VeganPraji. 
-Programul meu afiseaza timpul de preagatire, stocul si pregatirea unei prajituri. 
+Am creat o clasa  numita Prajitura care este baza pentru clasele FructePraji si VeganPraji. 
+Am implementat funcțiile virtule TimpPregatire și Pregatire. 
+Functia TimpPregatire furnizează detalii despre timpul de pregatire și funcția Pregatire simulează procesul de pregătire al unei prajituri arătându-ne pașii pe care trebuie să îi urmăm.
+
+
+
+
 
 
